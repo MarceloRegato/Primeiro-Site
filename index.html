@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Meu Portfólio</title>
+</head>
+<body>    
+
+    <nav>
+        <ul>
+            <li><a class="cormenu" href="#Sobre" style="text-decoration: none;">Sobre</a></li> 
+            <li><a class="cormenu" href="#Servicos" style="text-decoration: none;">Serviços</a></li> 
+            <li><a class="cormenu" href="#Contato" style="text-decoration: none;">Contato</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="Sobre"><strong>Sobre:</strong>
+            <p>Me chamo Marcelo Regato,
+            <br>
+            tenho 31 anos, nascido no estado do Rio de janeiro/Rj.
+            <br>
+            Desde novo um entusiasta e apreciador de jogos eletrônicos e aficcionado em testes de desempenho de hardware.<br> Fiz cursos como Montagem e Manutenção de Microcomputadores, Rede de computadores, e hoje faço Faculdade na área de Tecnologia da informação. <br> Descobri grande gosto pela parte de Web-designer, assim como Desenvolvimento-web. 
+            <br>
+            <br>
+            </p>
+
+            <div id="foto">
+                <img class="bordaimg" src="fotoo.png">
+            </div>
+
+
+            <div class="texto">
+                --=\Web-designer/=--
+            </div>
+        </section>
+
+
+
+        <section id="Servicos"><div id="align"><strong>Serviços:</strong></div>           
+            <!--<br>-->            
+        <div id="responsivo">   
+            <button id="btn1" data-modal-target="#modal"><strong>Manutenção:</strong>
+                <br>                
+                <picture>
+                    <source media="(min-width:1400px)" srcset="imagens/manutegran.png">
+                    <img src="imagens/manutemed.png">
+                </picture>
+            </button>
+
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">Técnico em Montagem e Manutenção:</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Executa configurações de sistema operacional, realiza limpeza e conservação dos equipamentos. Faz testes preventivos operacionais e de segurança nos equipamentos e demais periféricos. Realiza atendimentos de manutenção em postos externos, faz emissão de relatórios técnicos de visitas e laudos de atendimento de manutenção.
+                </div>
+            </div>
+
+
+            <button id="btn2" data-modal-target="#modalb"><strong>Web-Developer:</strong>
+                <br>
+                <picture>
+                    <source media="(min-width:1400px)" srcset="imagens/webdesigngran.png">
+                    <img src="imagens/webdesignmed.png">
+                </picture>
+            </button>
+            <div class="modalb" id="modalb">
+                <div class="modalb-header">
+                    <div class="titleb">Desenvolvedor-Web:</div>
+                    <button data-close-button class="close-buttonb">&times;</button>
+                </div>
+                <div class="modalb-body">
+                    Essencialmente, um desenvolvedor web realiza o desenvolvimento de websites na internet. Ele é o responsável por toda a estrutura de um determinado site. Ou seja, planeja, constrói e dá manutenção para tudo que roda em uma plataforma web. Esse profissional também precisa garantir que tudo funcione de acordo com o esperado.
+                    Também chamado de web developer ou programador, normalmente, divide-se suas áreas de atuação em apenas duas: front-end e back-end.
+                </div>
+            </div>
+
+
+            <button id="btn3" data-modal-target="#modalc"><strong>Linguagens:</strong>
+                <br>
+                <picture>
+                    <source media="(min-width:1400px)" srcset="imagens/linguagemgran.jpg">
+                    <img src="imagens/linguagemmed.jpg">
+                </picture>
+            </button>
+            <div class="modalc" id="modalc">
+                <div class="modalc-header">
+                    <div class="titlec">Linguagens em Desenvolvimento:</div>
+                    <button data-close-button class="close-buttonc">&times;</button>
+                </div>
+                <div class="modalc-body">
+                   - C++ (Básico) <br>
+                   - Javascript (Básico) <br>
+                   - Html (Básico) <br>
+                   - Css (Básico) <br>
+                <br>
+                   Atualmente terminando minha faculdade na área de Analise e Desenvolvimento de Sistemas, com foco na parte de front-end, aonde melhor me adaptei.<br>
+                   Em busca sempre de maior aprendizagem, estou a procura de um estágio do qual possa me ajudar tanto na minha evolução profissional, como pessoal.    
+                </div>
+            </div>
+
+
+            <button id="btn4" data-modal-target="#modald"><strong>Projetos:</strong>
+                <br>
+                <picture>
+                    <source media="(min-width:1400px)" srcset="imagens/projetogran.jpg">
+                    <img src="imagens/projetomed.jpg">
+                </picture>
+            </button>
+            <div class="modald" id="modald">
+                <div class="modald-header">
+                    <div class="titled">Projetos em Andamento:</div>
+                    <button data-close-button class="close-buttond">&times;</button>
+                </div>
+                <div class="modald-body">
+                 Em construção!
+                </div>
+            </div>
+
+        </div>    
+        
+        </section>
+
+
+        <section id="Contato"><strong>Contato:</strong>
+
+            <ul class="flex-container">
+               <button class="flex-item"><strong>Facebook:</strong>
+                   <figure>
+                       <a href="https://www.facebook.com/ulquiorra.schiffer.14268769" target="_blank">
+                           <img src="imagens/facebook.jpg" width="80px" height="80px">
+                       </a>
+                   </figure>                
+               </button>  
+   
+               <button class="flex-item"><strong>Github:</strong>
+                   <figure>
+                       <a href="https://github.com/MarceloRegato" target="_blank">
+                           <img src="imagens/github.png" width="80px" height="80px">
+                       </a>
+                   </figure>                
+               </button>  
+   
+               <button class="flex-item"><strong>Linkedin:</strong>
+                   <figure>
+                      <a href="https://www.linkedin.com/in/marcelo-regato-371517215/" target="_blank"> 
+                           <img src="imagens/linkedin.jpg" width="80px" height="80px">
+                      </a>
+                   </figure>                
+               </button>  
+           </ul>    
+   
+           <li>
+               <a class="download" href="Marcelo Regato.pdf" download="Marcelo Regato.pdf">
+                   Download Curriculo
+               </a>
+           </li>    
+
+        </section>
+        
+    </main>
+
+    <div id="overlay"></div>
+    
+</body>
+</html>
